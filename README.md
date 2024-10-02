@@ -5,7 +5,9 @@
 _One-line description of `<PACKAGE>`._
 
 ## Usage
-Use this repository as a template. Search for the following tags and replace them as needed:
+Use this repository as a template when using the [swak](https://github.com/yedivanseven/swak) pacakge.
+
+First, search for the following tags and replace them as needed:
 - `<YEAR>` the year for the copyright notice
 - `<AUTHOR>` your name
 - `<USER>` your GitHub user name
