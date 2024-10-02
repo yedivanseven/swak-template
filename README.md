@@ -1,7 +1,7 @@
 ![GitHub Pages](https://github.com/<USER>/<PACKAGE>/actions/workflows/publish-documentation.yml/badge.svg)
 ![PyPI](https://github.com/<USER>/<PACKAGE>/actions/workflows/publish-package.yml/badge.svg)
 
-# <PACKAGE>
+# `<PACKAGE>`
 _One-line description of `<PACKAGE>`._
 
 ## Usage
