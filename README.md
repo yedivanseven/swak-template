@@ -6,10 +6,10 @@ _One-line description of <PACKAGE>._
 
 ## Usage
 Use this repository as a template. Search for the foloowing tags and replace them as needed:
-- <YEAR> the year for the copyright notice
-- <AUTHOR> your name
-- <USER> your GitHub user name
-- <PACKAGE> the name of your package, which should match the name of the repository
+- `<YEAR>` the year for the copyright notice
+- `<AUTHOR>` your name
+- `<USER>` your GitHub user name
+- `<PACKAGE>` the name of your package, which should match the name of the repository
 Then, rename the python package `package` also to <PACKAGE>.
 
 Finally, look for and replace other occurrences of
