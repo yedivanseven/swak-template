@@ -12,9 +12,15 @@ Use this repository as a template. Search for the foloowing tags and replace the
 - <PACKAGE> the name of your package, which should match the name of the repository
 Then, rename the python package `package` also to <PACKAGE>.
 
+Finally, look for and replace other occurrences of
+- `package`
+- `your@email.com`
+
 ## Useful Links
 [PyPI](https://pypi.org/project/<PACKAGE>/)
+
 [Pipfile](https://github.com/<USER>/<PACKAGE>/blob/main/Pipfile)
+
 [repository](https://github.com/<USER>/<PACKAGE>)
 
 ## Documentation

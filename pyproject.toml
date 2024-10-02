@@ -6,13 +6,13 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "<PACKAGE>"
+name = "package"
 dynamic = ["version"]
 requires-python = ">=3.12"
 dependencies = [
   "swak",
 ]
-authors = [{name = "<AUTHOR>", email = "<EMAIL>"}]
+authors = [{name = "<AUTHOR>", email = "your@email.com"}]
 description = "One-line description of <PACKAGE>."
 readme = "README.md"
 keywords = [
@@ -41,7 +41,7 @@ extras = [
 ]
 
 [project.scripts]
-package = "main:run"
+package = "package.main:run"
 
 [tool.setuptools_scm]
 version_file = "version.env"
