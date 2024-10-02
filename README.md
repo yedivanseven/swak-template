@@ -2,10 +2,10 @@
 ![PyPI](https://github.com/<USER>/<PACKAGE>/actions/workflows/publish-package.yml/badge.svg)
 
 # <PACKAGE>
-_One-line description of <PACKAGE>._
+_One-line description of `<PACKAGE>`._
 
 ## Usage
-Use this repository as a template. Search for the foloowing tags and replace them as needed:
+Use this repository as a template. Search for the following tags and replace them as needed:
 - `<YEAR>` the year for the copyright notice
 - `<AUTHOR>` your name
 - `<USER>` your GitHub user name
