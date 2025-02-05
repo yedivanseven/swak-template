@@ -11,11 +11,14 @@ release = version
 
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon'
+    'sphinx.ext.autosectionlabel',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode'
 ]
 
 autodoc_typehints = 'none'
 add_module_names = False
+autosectionlabel_prefix_document = True
 
 templates_path = ['_templates']
 exclude_patterns = []
