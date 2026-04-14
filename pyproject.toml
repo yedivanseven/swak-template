@@ -43,6 +43,9 @@ extras = [
 [project.scripts]
 package = "package.main:run"
 
+[tool.setuptools.packages.find]
+where = ["src"]
+
 [tool.setuptools_scm]
 version_file = "version.env"
 version_file_template = "SETUPTOOLS_SCM_PRETEND_VERSION={version}"
@@ -54,8 +57,9 @@ line-length = 79
 quote-style = "single"
 
 [tool.ruff.lint]
-ignore = ["PLR"]
+ignore = ["A005"]
 select = [
+    "A",
     "F",
     "E",
     "W",
@@ -65,7 +69,8 @@ select = [
     "YTT",
     "ASYNC",
     "C4",
-    "T100",
+    "T10",
+    "T20",
     "EXE",
     "ISC",
     "ICN",
@@ -76,8 +81,9 @@ select = [
     "SIM",
     "INT",
     "PTH",
-    "PL",
+    "PLE",
+    "PLW",
     "NPY",
     "PERF",
-    "FURB"
+    "FURB",
 ]
